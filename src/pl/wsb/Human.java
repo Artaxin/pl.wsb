@@ -5,15 +5,19 @@ public class Human {
     String lastName;
     String age;
     Animal pet;
+    Car car;
 
 
-    public Human(String firstName, String lastName, String age) {
+    public Human(String firstName, String lastName, String age, Car car) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.car = car;
 
 
     }
+
+
 
     @Override
     public String toString() {

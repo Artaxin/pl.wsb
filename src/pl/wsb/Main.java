@@ -6,14 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Human human1 = new Human("Jan", "Kowalski","33");
-       Human human2 = new Human("Adam", "Nowak","27");
+        Car car1 = new Car("Astra", "Opel", "Black", 4);
+        Car car2 = new Car("Galaxy", "Ford", "Silver", 5);
+
+       Human human1 = new Human("Jan","Kowalski","33",car1);
+       Human human2 = new Human("Adam", "Nowak","27", car2);
+
 
        Animal animal1 = new Animal("pies","Azor");
        Animal animal2 = new Animal("kot","Puszek");
 
        Phone phone1 = new Phone("2019","Galaxy S9","2000");
        Phone phone2 = new Phone("2020","Xiaomi11", "3300");
+
+
 
         System.out.println(human1);
         System.out.println(human1.firstName);
