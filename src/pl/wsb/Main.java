@@ -51,5 +51,6 @@ public class Main {
         animal2.walk();
         animal2.walk();
 
+
     }
 }

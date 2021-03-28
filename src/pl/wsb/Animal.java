@@ -34,6 +34,7 @@ public class Animal {
         System.out.println(this.species + " dzieki za nakarmianie, teraz moja waga to " + this.weight);
     }
 
+
     void walk() {
         weight--;
         if (weight <= 0) {

@@ -12,6 +12,7 @@ public class Human {
         this.lastName = lastName;
         this.age = age;
 
+
     }
 
     @Override
