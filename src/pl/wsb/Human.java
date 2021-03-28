@@ -4,11 +4,14 @@ public class Human {
     String firstName;
     String lastName;
     String age;
+    Animal pet;
+
 
     public Human(String firstName, String lastName, String age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+
     }
 
     @Override
